@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./styles.css";
-import ProgressBar from "./ProgressBar";
-
+import ProgressBar from "./ProgressBar.jsx";
 export function Reto4() {
-    let [width,setWidth] = useState(0);
+  let [width,setWidth] = useState(0);
   
   const changeWidth = (e) => {
     setWidth(e.target.value);
